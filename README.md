@@ -5,8 +5,10 @@
 Clone this repo <br />
 ```git clone https://github.com/rSrikesh/Weather-App.git```
 
-Install The Requirements using <br />
-```pip install -r requirements.txt``` 
+Install The Requirements <br />
+```pip install flask``` <br /> 
+```pip install requests``` <br />
+```pip install python-dotenv``` <br />
 
 Run the Python File <br />
 ```python main.py```
