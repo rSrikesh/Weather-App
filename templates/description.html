@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        .content {
+            max-width: 600px;
+            margin: white;
+            background: white;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        h3{
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: coral;">
+    <div align="center">
+        <div class="content">
+            <h3>Country: {{weather.coun}} and City: {{ weather.city }}</h3>
+            <h3>The co-ordinates are Longitude: {{weather.longitude}} and Latitude: {{weather.longitude}}</h3>
+            <h3>The temperature of this city is {{ weather.temperature}} F</h3>
+            <h3>Today's maximum temperature is {{weather.max_temp}}F and the minimum temperature is {{weather.min_temp}}F</h3>
+            <h3>Today's humidity in {{weather.city}} is {{weather.humidity}}</h3>
+            <h3>Today's windspeed is {{weather.speed}}</h3>        
+            <h3>Description : {{weather.description}}</h3> 
+            <h3>Have A Nice Day!!</h3>
+        </div> 
+    </div> 
+</body>
+</html>
